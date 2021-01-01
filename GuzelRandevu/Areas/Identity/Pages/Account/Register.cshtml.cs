@@ -59,8 +59,8 @@ namespace GuzelRandevu.Areas.Identity.Pages.Account
                 //Here we create a Admin super user who will maintain the website                   
 
                 var user = new Uye();
-                user.UserName = "b191210310@sakarya.edu.tr";
-                user.Email = "b191210310@sakarya.edu.tr";
+                user.UserName = "b191210301@sakarya.edu.tr";
+                user.Email = "b191210301@sakarya.edu.tr";
 
                 string userPWD = "123";
 

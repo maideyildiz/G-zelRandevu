@@ -27,9 +27,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.randevuSaati)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.randevuTuru)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -65,14 +62,10 @@
             {
                 <td>
                     @Html.DisplayFor(modelItem => item.randevuPuani)
-                </td>
-
+                </td>       
             }
             <td>
                 @Html.DisplayFor(modelItem => item.randevuSaati)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.randevuTuru)
             </td>
             <td>
                 @Html.ActionLink("Düzenle", "RandevuEdit", new { merkezId = item.merkezId, uyeId = item.uyeId }) |

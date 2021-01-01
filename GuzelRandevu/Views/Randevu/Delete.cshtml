@@ -1,12 +1,12 @@
 ﻿@model GuzelRandevu.Models.Randevu
 
 @{
-    ViewData["Title"] = "Randevu Sil";
+    ViewData["Title"] = "Delete";
 }
 
-<h2>Randevu Sil</h2>
+<h1>Delete</h1>
 
-<h5>Randevunuzu silmek istediğinizden emin misiniz?</h5>
+<h3>Are you sure you want to delete this?</h3>
 <div>
     <h4>Randevu</h4>
     <hr />
@@ -52,7 +52,7 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="uyeId" />
         <input type="hidden" asp-for="merkezId" />
-        <input type="submit" value="Sil" class="btn btn-danger" /> |
-        <a asp-action="Index">Randevularımı Gör</a>
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
     </form>
 </div>

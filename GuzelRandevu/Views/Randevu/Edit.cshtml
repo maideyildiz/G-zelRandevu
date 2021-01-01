@@ -1,10 +1,10 @@
 ﻿@model GuzelRandevu.Models.Randevu
 
 @{
-    ViewData["Title"] = "Randevu Düzenle";
+    ViewData["Title"] = "Edit";
 }
 
-<h5>Randevu Düzenle</h5>
+<h1>Edit</h1>
 
 <h4>Randevu</h4>
 <hr />
@@ -31,17 +31,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="randevuTuru" class="control-label"></label>
-                <select asp-for="randevuTuru" class="form-control" asp-items="@Html.GetEnumSelectList(typeof(Randevu.randevuTipi))"></select>
+                <select asp-for="randevuTuru" class="form-control"></select>
                 <span asp-validation-for="randevuTuru" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Kaydet" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Randevu Listesine Geri Dön</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
