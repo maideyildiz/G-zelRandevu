@@ -1,13 +1,8 @@
-# GuzelRandevu
-Sakarya Üniversitesi Web Programlama Dersi Ödevi
+-Our project is designed to easily make an appointment from Beauty Centers.
 
+-There are two different types of users on the site, Admin and Customer.
 
+-Admins have the authority to add Beauty Centers to the site and to see and delete all comments.
 
--Projemiz Güzellik Merkezleri'nden rahatlıkla randevu alınması üzerine kurgulanmıştır.
-
--Sitede Admin ve Müşteri olmak üzere iki farklı kullanıcı türü vardır.
-
--Adminler siteye Güzellik Merkezleri ekleyebilme ve tüm yorumları görüp silebilme yetkilerine sahiptir.
-
--Müşteri ise kendi randevu geçmişine ulaşabilir, süresi geçmiş randevularına yorum yazıp puan verebilir ayrıca daha süresi gelmemiş randevuları silebilir ya da düzenleme yapabilir.
+-Customer can access their own appointment history, comment and rate their overdue appointments, and delete or edit appointments that are not yet due.
 
